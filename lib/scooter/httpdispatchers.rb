@@ -1,4 +1,4 @@
-%w( httpdispatcher consoledispatcher puppetdbdispatcher orchestratordispatcher).each do |lib|
+%w( httpdispatcher consoledispatcher puppetdbdispatcher orchestratordispatcher inventorydispatcher).each do |lib|
   require "scooter/httpdispatchers/#{lib}"
 end
 
